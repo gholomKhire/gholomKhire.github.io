@@ -142,7 +142,7 @@ var circleArray = []
 
 var init = () => {
     circleArray = []
-    for (var i = 0; i <= 300; i++) {
+    for (var i = 0; i <= 200; i++) {
         var x = Math.random() * (innerWidth - raidus * 2) + raidus
         var y = Math.random() * (innerHeight - raidus * 2) + raidus
         var dx = Math.floor(Math.random() * 10 - 5) / 5
