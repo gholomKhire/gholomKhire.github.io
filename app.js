@@ -70,7 +70,7 @@ window.addEventListener("mousemove", (e) => {
     mousePosition.y = e.y
 })
 
-window.addEventListener("touchstart", () => {
+window.addEventListener("touchmove", () => {
     mousePosition.x = e.x
     mousePosition.y = e.y
 }, false)
